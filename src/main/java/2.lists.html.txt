@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lists</title>
+</head>
+<body>
+    <h1>Country List</h1>
+    <ol>
+        <li>USA</li>
+        <li>France</li>
+        <li>Germany</li>
+        <li>Mexico</li>
+        <li>Russia</li>
+    </ol>
+    <br>
+    <hr>
+    <br>
+    <h1>City List</h1>
+    <ul>
+        <li>Istanbul</li>
+        <li>Paris</li>
+        <li>Washington D.C.</li>
+        <li>Berlin</li>
+    </ul>
+    <br>
+    <hr>
+    <br>
+    <dl>
+        <dt>Definition list</dt>
+        <dd>Coffee</dd>
+        <dd>Tea</dd>
+    </dl>
+    <br>
+    <hr>
+    <br>
+    <ol>
+        <li>USA
+            <ul>
+                <li>Florida</li>
+                <li>Georgia</li>
+                <li>New Jersey</li>
+            </ul>
+        </li>
+        <li>Florida
+            <ul>
+                <li>Orlando</li>
+                <li>Miami</li>
+                <li>Tampa</li>
+            </ul>
+        </li>
+    </ol>
+    <br>
+    <hr>
+    <br>
+    <ol type="a" start="2">
+        <li>Liverpool</li>
+        <li>Real Madrid</li>
+        <li>Chelsea</li>
+        <li>Barselona</li>
+    </ol>
+    <br>
+    <hr>
+    <br>
+    <ul type="circle">
+        <li>Liverpool</li>
+        <li>Real Madrid</li>
+        <li>Chelsea</li>
+        <li>Barselona</li>
+    </ul>
+</body>
+</html>

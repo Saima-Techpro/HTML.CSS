@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML</title>
+</head>
+<body>
+    <h1>How to add website to search engines</h1>
+    <p>In this article, you will learn <u>how to register your site to search  engines.</u></p>
+
+    <h2>How to add website to google</h2>
+    <p><strong>Lorem ipsum</strong> dolor sit amet consectetur adipisicing elit. <br>
+        Accusantium doloribus soluta consequatur sequi! Porro accusantium <br>
+        officia sunt ut voluptate quae deserunt et cum, blanditiis, libero cupiditate <br>
+        saepe in! Quasi, <b>ecusandae</b>r.</p>
+
+        <hr>
+
+         <h3>How to add any link</h3>
+         <!-- This is a comment -->
+         <p><strong>ipsum dolor</strong>  sit amet consectetur adipisicing elit. Consequatur, <br>
+             odio numquam amet nobis ipsa deleniti, vel, ducimus debitis libero minus <br>
+             suscipit nisi veniam neque ullam maiores explicabo quod unde! Odio!</p>
+
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, obcaecati doloremque est vitae suscipit accusantium quis assumenda voluptatem quas a laborum excepturi. Omnis debitis harum expedita nam fuga, laudantium eum.
+             </p>
+
+            <h4>H<sub>2</sub>O</h4>
+            <h3>x<sup>2</sup> + a<sup>3</sup></h3>
+
+        <hr>
+        <p><del>Lorem ipsum dolor sit amet</del>, consectetur adipisicing elit. Reprehenderit <br>
+            incidunt tempore <mark>fugit commodi obcaecati assumenda quae,</mark> harum dicta expedita <br>
+            temporibus. Dolorem ex fugit excepturi,
+            <del>500</del> nobis natus saepe ut! Repellat, quos.</p>
+
+            <!-- This is not really important -->
+            <hr>
+            <code>&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio maxime <br>
+                 ipsum quam, aliquam quidem deserunt earum? <mark>Distinctio explicabo</mark>, <br>
+                 dolorem quaerat similique possimus, expedita, ut consectetur nulla suscipit nisi deleniti!&lt;p&gt;</code>
+</body>
+</html>
