@@ -63,11 +63,20 @@
     <br>
     <hr>
     <br>
-    <ul type="circle">
+    <ul type="square">
         <li>Liverpool</li>
         <li>Real Madrid</li>
         <li>Chelsea</li>
         <li>Barselona</li>
     </ul>
+
+     <hr>
+        <br>
+        <ul type="circle">
+            <li id="Liverpool">Liverpool</li>
+            <li>Real Madrid</li>
+            <li>Chelsea</li>
+            <li>Barselona</li>
+        </ul>
 </body>
 </html>

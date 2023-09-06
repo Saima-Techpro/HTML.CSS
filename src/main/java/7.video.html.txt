@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+</head>
+<body>
+    <h3>Video</h3>
+    <video src="./video/video.mp4"
+           controls
+           width="500"
+           height="400"
+           muted
+           loop
+           poster="./img/poster.jpg"  // to choose the image with which the video start / thumbnail
+    ></video>
+
+    <br>
+// For autoplay, remove controls
+    <video src="./video/video.mp4"
+           width="500"
+           height="400"
+           autoplay
+           muted
+           loop
+    ></video>
+</body>
+</html>

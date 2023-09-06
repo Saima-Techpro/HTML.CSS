@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <table border="1">
+        <head>
+            <th colspan="2">SN</th>
+            <!-- <th>Name and Surname</th> -->
+        </head>
+        <tbody>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Ali Can</td>
+            </tr>
+            <tr>
+                <!-- <td>2</td> -->
+                <td>Alex Smith</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Lydia Smith</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Aisha Han</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Veli Han</td>
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+</head>
+<body>
+    <h1>Links</h1>
+    <!-- <a href="https://www.tesla.com/">Click to navigate to Tesla website</a> -->
+    <a href="https://www.tesla.com/" target="_blank">Click to navigate to Tesla website</a>
+    <br>
+    <a href="heading.html">Click to navigate to the 1-heading.html</a>
+    <br>
+    <!-- add # before footer and add id to the footer tag at the bottom of the page -->
+    <a href="#footer">Click to navigate to the footer</a>
+    <br>
+
+    <!-- first add id to the Liverpool inside the list tag and then add # and name Liverpool here in the tag  -->
+    <a href="lists.html#Liverpool">Click to navigate to the Liverpool</a>
+
+    <br>
+    <a href="./img/nature.jpg">Click to open an image</a>
+    <br>
+    <a href="mailto: johndoe@gmail.com">Send email</a>
+    <br>
+    <a href="tel:+1 585 304 29 59">Click to call</a>
+    <br>
+    <a href="https://wa.me/+1 585 304 29 59">WhatsApp</a>
+    <br>
+    <a href="https://wa.me/+1 585 304 29 59?text=Hello, it's me">Send message from WhatsApp</a>
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum officia autem architecto quae beatae, voluptatum dolores dolorem consequuntur alias ipsam, laborum nemo amet ea voluptatem aliquam voluptatibus illum unde obcaecati dignissimos non animi distinctio laboriosam aperiam. Tempora iste maiores ea vel, dolores quo magnam non beatae, voluptatem animi iure minus, rerum magni. Sit perspiciatis veritatis fugit eligendi officiis labore unde aliquid! Reprehenderit fuga neque reiciendis maxime numquam exercitationem? Animi id officiis, totam necessitatibus quasi sint? Ratione inventore reprehenderit maiores. Sapiente cum explicabo alias assumenda autem excepturi! A, ullam? Officiis iusto perferendis enim accusamus repellat neque nostrum architecto unde molestiae laboriosam!</p>
+    <br>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum officia autem architecto quae beatae, voluptatum dolores dolorem consequuntur alias ipsam, laborum nemo amet ea voluptatem aliquam voluptatibus illum unde obcaecati dignissimos non animi distinctio laboriosam aperiam. Tempora iste maiores ea vel, dolores quo magnam non beatae, voluptatem animi iure minus, rerum magni. Sit perspiciatis veritatis fugit eligendi officiis labore unde aliquid! Reprehenderit fuga neque reiciendis maxime numquam exercitationem? Animi id officiis, totam necessitatibus quasi sint? Ratione inventore reprehenderit maiores. Sapiente cum explicabo alias assumenda autem excepturi! A, ullam? Officiis iusto perferendis enim accusamus repellat neque nostrum architecto unde molestiae laboriosam!</p>
+    <br>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum officia autem architecto quae beatae, voluptatum dolores dolorem consequuntur alias ipsam, laborum nemo amet ea voluptatem aliquam voluptatibus illum unde obcaecati dignissimos non animi distinctio laboriosam aperiam. Tempora iste maiores ea vel, dolores quo magnam non beatae, voluptatem animi iure minus, rerum magni. Sit perspiciatis veritatis fugit eligendi officiis labore unde aliquid! Reprehenderit fuga neque reiciendis maxime numquam exercitationem? Animi id officiis, totam necessitatibus quasi sint? Ratione inventore reprehenderit maiores. Sapiente cum explicabo alias assumenda autem excepturi! A, ullam? Officiis iusto perferendis enim accusamus repellat neque nostrum architecto unde molestiae laboriosam!</p>
+    <br>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum officia autem architecto quae beatae, voluptatum dolores dolorem consequuntur alias ipsam, laborum nemo amet ea voluptatem aliquam voluptatibus illum unde obcaecati dignissimos non animi distinctio laboriosam aperiam. Tempora iste maiores ea vel, dolores quo magnam non beatae, voluptatem animi iure minus, rerum magni. Sit perspiciatis veritatis fugit eligendi officiis labore unde aliquid! Reprehenderit fuga neque reiciendis maxime numquam exercitationem? Animi id officiis, totam necessitatibus quasi sint? Ratione inventore reprehenderit maiores. Sapiente cum explicabo alias assumenda autem excepturi! A, ullam? Officiis iusto perferendis enim accusamus repellat neque nostrum architecto unde molestiae laboriosam!</p>
+    <br>
+    <hr>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum officia autem architecto quae beatae, voluptatum dolores dolorem consequuntur alias ipsam, laborum nemo amet ea voluptatem aliquam voluptatibus illum unde obcaecati dignissimos non animi distinctio laboriosam aperiam. Tempora iste maiores ea vel, dolores quo magnam non beatae, voluptatem animi iure minus, rerum magni. Sit perspiciatis veritatis fugit eligendi officiis labore unde aliquid! Reprehenderit fuga neque reiciendis maxime numquam exercitationem? Animi id officiis, totam necessitatibus quasi sint? Ratione inventore reprehenderit maiores. Sapiente cum explicabo alias assumenda autem excepturi! A, ullam? Officiis iusto perferendis enim accusamus repellat neque nostrum architecto unde molestiae laboriosam!</p>
+    <footer id="footer">
+        <h3>This is a footer</h3>
+    </footer>
+</body>
+</html>

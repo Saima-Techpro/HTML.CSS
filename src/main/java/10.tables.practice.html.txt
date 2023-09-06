@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <head>
+            <th colspan="7">Time Chart</th>
+        </head>
+        <body>
+          <tr>
+            <td>Days</td>
+            <td>Session</td>
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+          </tr>
+          <tr>
+            <td rowspan="4">Batch179</td>
+            <td>1</td>
+            <td>Reacp</td>
+            <td>HTML</td>
+            <td>JS</td>
+            <td>HTML</td>
+            <td>API</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Reacp</td>
+            <td>HTML</td>
+            <td>JS</td>
+            <td>HTML</td>
+            <td>API</td>
+          </tr>
+          <tr>
+            <td colspan="6">REST</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Reacp</td>
+            <td>HTML</td>
+            <td>JS</td>
+            <td>HTML</td>
+            <td>API</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Reacp</td>
+            <td>HTML</td>
+            <td>JS</td>
+            <td>HTML</td>
+            <td>API</td>
+          </tr>
+        </body>
+    </table>
+</body>
+</html>
+<!-- tr*6 -->
+<!-- td*7 -->

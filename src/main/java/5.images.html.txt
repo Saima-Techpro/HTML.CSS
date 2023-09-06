@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMAGES</title>
+</head>
+<body>
+    <h1>IMAGES</h1>
+    <!-- image size can be fixed with width and height css commands -->
+    <!-- Using CSS directly like this is a bad practice.. not to do in real life -->
+    <!-- <img src="./img/nature.jpg" alt="nature" > -->
+    <!-- <img src="./img/nature.jpg" alt="nature" width="500" height="500"> -->
+
+    <a href="./img/nature.jpg" target="_blank">
+        <img src="./img/nature.jpg" alt="nature" width="300" height="300">
+    </a>
+    <a href="./img/green.jpg" target="_blank">
+        <img src="./img/green.jpg" alt="green" width="300" height="300">
+    </a>
+    <a href="./img/waiter.jpg" target="_blank">
+        <img src="./img/waiter.jpg" alt="waiter" width="300" height="300">
+    </a>
+
+</body>
+</html>
