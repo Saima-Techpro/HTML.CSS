@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic tags</title>
+</head>
+<body>
+    <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nobis tempora, soluta laboriosam laborum minima velit nesciunt facere deleniti asperiores, a veritatis accusamus sint sequi doloribus, alias amet voluptas quos.</article>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor itaque ipsam rerum alias voluptatibus earum tempore nemo, at id. Voluptatibus quibusdam cumque non quae dignissimos quam quaerat porro molestias laborum.</p>
+    <details>
+        <summary>Extra details</summary>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium ipsum sint ex culpa eligendi numquam, molestiae adipisci? Impedit laudantium exercitationem nisi cumque, sunt quae illum porro eius error quidem nemo.
+    </details>
+    <figure>
+        <img src="./img/nature.jpg" alt="nature" width="500">
+        <figcaption>this is just a nature picture</figcaption>
+    </figure>
+    <p>I</p>
+    <button></button>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Styling</title>
+</head>
+<body>
+    <h1 style="color: aqua; background-color: rgb(11, 93, 93);">Inline Styling</h1>
+    <p style="color: rgb(161, 89, 229); font-size: 20px;text-align: right;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid aliquam at laudantium soluta voluptatum non dicta vitae iusto voluptatem est, vero magni esse tempora harum obcaecati et ipsam ex? Nam!</p>
+</body>
+</html>
