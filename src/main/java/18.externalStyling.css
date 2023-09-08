@@ -1,0 +1,33 @@
+/* *{
+    color: purple;
+} */
+
+h1 {
+    color: firebrick;
+    font-size: 20px;
+}
+article{
+    color: orange;
+    font-size: 20px;
+}
+p{
+    color: aqua;
+    font-size: 20px;
+}
+
+.descr{
+    text-align: center;
+    color: darkgreen;
+}
+p.descr{
+    color: blue;
+}
+#extra{
+    text-align: right;
+    font-size: 40px;
+    font-family: cursive;
+}
+/* classes should start with . */
+.more{
+    color: red;
+}
