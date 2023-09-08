@@ -1,0 +1,55 @@
+/* This class is linked with Practice-externalStyling.html class */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+
+}
+
+.active{
+    background-color: black;
+    color: white;
+}
+/* none will remove the underline from the a tag */
+a {
+    font-style: italic;
+    font-family: cursive;
+    text-decoration: none;
+    font-weight: 500;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color: green;
+}
+ul{
+    list-style-type: '💭';
+    /* list-style-image: url("../img/rocket.png");
+    list-style-position: inside; */
+}
+button{
+    /* width: 800px; */
+    /* width: 80%; */
+}
+.btn{
+    display: inline;
+    /* padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px; */
+    padding: 10px 30px 20px 5px;
+    /* margin-left: 50px; */
+    /* margin: 20px 40px 30px 5px; */
+    margin: auto 0;
+    /* border: 5px inset green;   */
+    border: 5px red dotted;
+    /* border-radius: 20px; */
+    border-radius: 20%;
+}
+/* after this change display: block and then use margin: auto 0
+  it's important to chnage display to block coz margin works with div (as they create block or you have to change display to block coz we are dealing with buttoon at the moment */
+
+.navbar ul p{
+    list-style-image: none;
+}
