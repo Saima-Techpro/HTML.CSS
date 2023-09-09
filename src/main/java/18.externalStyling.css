@@ -14,20 +14,24 @@ p{
     color: aqua;
     font-size: 20px;
 }
-
+/* classes should start with . */
 .descr{
     text-align: center;
     color: darkgreen;
 }
-p.descr{
+/* article.descr will override .descr because it's more detailed and precise */
+article.descr{
     color: blue;
 }
 #extra{
     text-align: right;
-    font-size: 40px;
+    font-size: 30px;
     font-family: cursive;
+    color: blueviolet;
 }
-/* classes should start with . */
+/* This is more class */
 .more{
     color: red;
 }
+/* styling from class more will override coz css read from top to bottom .. and the style in the bottom class will overrirde any style from the class at the top */
+

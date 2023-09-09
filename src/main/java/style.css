@@ -13,9 +13,9 @@ div{
 }
 /* none will remove the underline from the a tag */
 a {
+    text-decoration: none;
     font-style: italic;
     font-family: cursive;
-    text-decoration: none;
     font-weight: 500;
 }
 a:hover{
@@ -25,8 +25,8 @@ a:active{
     color: green;
 }
 ul{
-    list-style-type: '💭';
-    /* list-style-image: url("../img/rocket.png");
+    list-style-type: '✨';
+    /* list-style-image: url("../img/arrow.png");
     list-style-position: inside; */
 }
 button{
@@ -35,21 +35,38 @@ button{
 }
 .btn{
     display: inline;
+    /* display: block; */
     /* padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 20px; */
     padding: 10px 30px 20px 5px;
     /* margin-left: 50px; */
     /* margin: 20px 40px 30px 5px; */
-    margin: auto 0;
+    /* margin-left: 0;
+    margin-left: auto;
+    margin-right: 0; */
     /* border: 5px inset green;   */
-    border: 5px red dotted;
+    /* border: 5px red dotted; double, dashed, outset, ridge,none, hidden etc*/
     /* border-radius: 20px; */
+    border-left: 5px solid green;
+    border-right: 5px dotted yellow;
+    border-bottom: 2px dashed purple;
+    border-top: 2px ridge red;
+
     border-radius: 20%;
 }
 /* after this change display: block and then use margin: auto 0
-  it's important to chnage display to block coz margin works with div (as they create block or you have to change display to block coz we are dealing with buttoon at the moment */
+  it's important to change display to block coz margin works with div (as they create block or you have to change display to block coz we are dealing with buttoon at the moment */
 
-.navbar ul p{
+.navbar ul li {
     list-style-image: none;
+    /* comment out the emojji section and open up the image command for the list in lines 29 and 30 */
 }
+body{
+    background-image: url(../img/nature.jpg);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: 500px 300px;
+
+}
+/* show how to inspect the page before ending the session */
