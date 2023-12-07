@@ -6,6 +6,14 @@
     <title>Form</title>
 </head>
 <body>
+<!--
+
+           id: To differentiate elements from each other, we are giving them ids.
+           for: To specify what a label is here for. "This label is FOR that input"
+           name: To categorize elements under a name.
+           multiple: To be able to select multiple options.
+   -->
+
     <form>
         <!-- first use type="text" and then type="email" and show the difference between the two  -->
         <label for="email">Email:</label>
@@ -28,13 +36,17 @@
         <br>
         <br>
         <!-- checkbox -->
+        <label for="Hobbies">Hobbies:</label>
         <label for="football">Football</label>
         <input type="checkbox" id="football" name="football">
         <label for="reading">Reading</label>
         <input type="checkbox" id="reading" name="reading">
+        <label for="music">Music</label>
+        <input type="checkbox" id="music" name="music">
         <br>
         <br>
-        <!-- radio -->
+        <!-- radio button-->
+        <label for="">Gender: </label>
         <input type="radio" id="male" name="gender" required>
         <label for="male">Male</label>
         <input type="radio" id="female" name="gender">
@@ -66,9 +78,13 @@
         </select>
         <br>
         <br>
+        <!-- Additional text area -->
         <textarea name="mytext" id="mytext" cols="60" rows="20" maxlength="100" placeholder="Please tell us about yourself"></textarea>
+        <br>
         <label for="url">Website</label>
         <input type="url" id="url" name="url">
+        <br>
+        <br>
         <input type="submit" value="Submit">
         <input type="button" value="Save">
         <input type="reset" value="Reset">
