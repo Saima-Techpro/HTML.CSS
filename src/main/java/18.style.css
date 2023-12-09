@@ -1,5 +1,15 @@
 /* This class is linked with Practice-externalStyling.html class */
+body{
+    background-color: bisque;
+}
 div{
+    width: 200px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+
+}
+nav.side-menu{
     width: 200px;
     height: 200px;
     background-color: grey;
@@ -11,6 +21,7 @@ div{
     background-color: black;
     color: white;
 }
+/* General style to all links */
 /* none will remove the underline from the a tag */
 a {
     text-decoration: none;
@@ -18,20 +29,45 @@ a {
     font-family: cursive;
     font-weight: 500;
 }
+
+/* Style for unvisited links */
+a:link{
+    color: red;
+}
+
+/* Style for visited links */
+a:visited{
+    color: purple;
+}
+/* Style when you hover over a link */
 a:hover{
+    background-color: blue;
     color: orange;
 }
+
+/* Style when you click on a link.. keep it pressed to see the colour change */
 a:active{
     color: green;
 }
+/* the order of a:hover and a:active also matters */
+
 ul{
-    list-style-type: '✨';
-    /* list-style-image: url("../img/arrow.png");
-    list-style-position: inside; */
+
+    line-height: 2rem;  /* can be used with any line, not just with lists only*/
+    list-style-type: disc;
+    /* list-style: none; */
+    /* list-style-image: url("../img/arrow.png"); */
+    list-style-position: inside;
 }
+ul.icon{
+    list-style-type: '✨';   /*https://emojipedia.org/*/
+
+}
+
+
 button{
-    /* width: 800px; */
-    /* width: 80%; */
+    width: 800px;
+    width: 80%;
 }
 .btn{
     display: inline;
@@ -56,7 +92,8 @@ button{
     border-radius: 20%;
 }
 /* after this change display: block and then use margin: auto 0
-  it's important to change display to block coz margin works with div (as they create block or you have to change display to block coz we are dealing with buttoon at the moment */
+  it's important to chnage display to block coz margin works with div
+  (as they create block or you have to change display to block coz we are dealing with button at the moment */
 
 .navbar ul li {
     list-style-image: none;
